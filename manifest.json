@@ -1,0 +1,9 @@
+{
+  "additional_parameters": {},
+  "datatypes": {
+    "customer": {
+      "template": "templates/customer-collect.json"
+    }
+  },
+  "system-template": "templates/system.json"
+}

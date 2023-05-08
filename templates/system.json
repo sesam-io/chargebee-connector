@@ -1,0 +1,17 @@
+{
+  "_id": "{{@ system @}}",
+  "authentication": "basic",
+  "operations": {
+    "customer-list": {
+      "method": "GET",
+      "payload-type": "json",
+      "payload_property": "list",
+      "url": "customers"
+    }
+  },
+  "password": "",
+  "type": "system:rest",
+  "url_pattern": "https://{{@ account_id @}}.chargebee.com/api/v2/%s",
+  "username": "$SECRET(api_key)",
+  "verify_ssl": true
+}
